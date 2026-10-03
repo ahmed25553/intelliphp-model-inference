@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+bin/
+obj/
+*.pyc
+
+# Models (large files)
+models/*.onnx
+models/**/*.onnx
+*.bin
+
+# IDE
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Environment
+.env
+.env.local
